@@ -30,6 +30,39 @@ margin-right:150px;
 .overview{
     background-color:rgba(227, 231, 241, 0.856);
 }
+.banner{
+    display: flex;
+    max-width: 1140px;
+    height: 461px;
+    margin: 200px auto 100px auto;
+    align-items: end;
+}
+
+.tx-main{
+     font-family: "Noto Serif", serif;
+     font-weight: bold;
+     font-size: 65px;
+}
+.tx-sub{
+    font-family:"Inter", sans-serif ;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:576px){
 
     .dt{
@@ -41,7 +74,18 @@ margin-right:150px;
     .nav-pre{
         margin-right: 10px;
     }
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: start;
+    }
     
+    .tx-main{
+       font-size: 24px;
+    }
+    .tx-sub{
+        font-size: 14px;
+    }
   
 }
 @media (min-width:577px) and (max-width:992px){
