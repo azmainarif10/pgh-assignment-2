@@ -152,9 +152,46 @@ margin-right:150px;
     text-decoration: underline;
     color: white;
 }
-
-
-
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join{
+    background-image: url(./B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+    max-width: 2300px;
+    height: 533px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    margin-bottom: 100px;
+}
+.tx-colorful{
+    text-align: center;
+    font-family: "Noto Serif", serif;
+     font-weight: bold;
+     font-size: 50px;
+     color: white;
+     padding-top: 200px;
+}
+.btn-sub{
+    font-size: 16px;
+     font-family: Inter, sans-serif ;
+      font-weight:400;
+       text-align: center;
+        color: white;
+        background-color: rgba(233, 90, 8, 1);
+         padding: 19px 54px;
+         border: none;
+}
+.em{
+    height: 50px;
+    width:645px;
+    font-size: 16px;
+     font-family: Inter, sans-serif ;
+    padding-left: 25px;
+    
+}
 
 @media (max-width:576px){
 
@@ -228,10 +265,16 @@ margin-right:150px;
     margin-left: 60px;
     margin-top: -20px;
 }
-
+.tx-colorful{
+    font-size: 20px;
+}
+.btns{
+height: 50px;
+width: 321px;
+margin-left: 69px;
 }
 
-
+}
 
 
 
