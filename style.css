@@ -64,8 +64,24 @@ margin-right:150px;
 .p-1 img {
     width: 100%;
 }
-
-
+.flower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 150px;
+}
+.badge{
+    position: relative;
+}
+.tt{
+    position: absolute;
+    width:286px;
+    height:286px;
+    top:-110px;
+    right: -95px;
+    filter: drop-shadow(-5px 7px 1px rgba(0, 0, 0, 0.3));
+}
 
 
 
@@ -108,7 +124,18 @@ margin-right:150px;
     .p-1{
         width: 100%;
     }
-    
+    .flower{
+        display: flex;
+        flex-direction: column;
+    }
+    .store{
+        width: 100%;
+        margin: 10px auto;
+    }
+.tt{
+    display: none;
+}
+
   
 }
 @media (min-width:577px) and (max-width:992px){
