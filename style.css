@@ -186,7 +186,7 @@ margin-right:150px;
 .btn-sub{
     font-size: 16px;
      font-family: Inter, sans-serif ;
-      font-weight:400;
+      font-weight:700;
        text-align: center;
         color: white;
         background-color: rgba(233, 90, 8, 1);
@@ -198,7 +198,8 @@ margin-right:150px;
     width:645px;
     font-size: 16px;
      font-family: Inter, sans-serif ;
-    padding-left: 25px;  
+    padding-left: 25px;
+
 }
 .social{
     display: flex;
@@ -287,7 +288,7 @@ margin-right:150px;
     }
     .esu-ni{
         font-size: 24px; 
-        margin-left:-50px; 
+        margin-left: -30px;
         margin-top: -40px;
     }
     .esu-ni br{
@@ -295,7 +296,7 @@ margin-right:150px;
     }
     .esu-tx{
         font-size: 14px;
-        margin-left: -70px;
+        margin-left: -45px;
     }
     .tx-deals{
       font-size: 24px;  
@@ -335,7 +336,8 @@ margin-right:150px;
         flex-direction: column;
     }
     .store{
-        width: 100%;
+        width: 358px;
+        height: 396px;
         margin: 10px auto;
     }
 .tt{
@@ -374,14 +376,16 @@ margin-right:150px;
     padding-top:115px;
 }
 .em{
-height: 49px;
-width:218px;
-margin-left:10px;
+height: 50px;
+width:160px;
+}
+.btns{
+    margin: 0 auto;
 }
 .btn-sub{
     height: 55px;
     width: 100px;
-    padding: 10px 15px;
+    padding: 10px 13px;
 }
 .join{
     height: 275px;
@@ -429,6 +433,7 @@ flex-direction: column;
     .flower-sp{
         grid-template-columns:repeat(3,1fr);
         margin-left: 20px;
+        gap: 10px;
      }
     .bn-img{
         width:100%;}
@@ -460,5 +465,15 @@ flex-direction: column;
     font-size: 16px;
     margin-left: 60px;
     margin-top: -20px;
+}
+.join{
+    width: 100%;
+}
+.btns{
+    width: 600px;
+    margin: 0 auto;
+}
+.fb{
+    margin-top: 14px;
 }
 }
